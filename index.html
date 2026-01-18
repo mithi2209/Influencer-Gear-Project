@@ -4,12 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Influencer Gear</title>
+    <link rel="shortcut icon" href="images/favicon.webp" type="image/x-icon">
+
     <!-- Tailwind Css Link -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- Css Link -->
+    <link rel="stylesheet" href="styles/style.css">
+    <!-- Font Awesome Cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
+
 <body>
     <header>
-        
+        <!-- Navbar -->
+         <nav class="my-10 mx-5 lg:my-20 lg:mx-30">
+            <div class="font-poppins flex justify-between items-center">
+                <div>
+                    <h2 class="text-[#3a3a3a] text-xl lg:text-2xl font-bold leading-9">Influencer products</h2>
+                </div>
+            
+                <ul class="flex justify-center items-center gap-0 md:gap-5 lg:gap-9  text-[#3a3a3a] font-semibold leading-6 ">
+                    <li class="hidden md:flex"><a href="">Home</a></li>
+                    <li class="hidden md:flex"><a href="">Products</a></li>
+                    <li class="hidden md:flex"><a href="">Sign up</a></li>
+                    <li class="hidden md:flex"><a href="">Log In</a></li>
+                    <li class="hidden md:flex"><i class="fa-solid fa-magnifying-glass text-2xl md:text-xl lg:text-2xl "></i></li>
+                    <li><i class="fa-solid fa-cart-arrow-down text-2xl md:text-xl lg:text-2xl"></i></li>
+                </ul>
+            </div>
+            
+         </nav>
+         <!-- Banner Section -->
+          <section class="mx-6 md:mx-30  my-20 md:my-40">
+            <div class="font-poppins flex flex-col-reverse md:flex-row  justify-between items-center ">
+                <!-- Banner Text Content -->
+                <div class="text-center md:text-left mt-6 md:mt-0">
+
+                    <h1 class="max-w-[400px] md:max-w-[580px] text-[#3a3a3a] font-bold text-[28px] md:text-5xl leading-[42px] md:leading-16">Start your Journey as Influencer</h1>
+                    <p class="max-w-[500px] text-[#3a3a3a] text-sm md:text-base font-medium md:font-semibold leading-6 pt-3 pb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem vestibulum sed scelerisque eros. Lectus faucibus.</p>
+                    
+                    <button class="border-none bg-pink-600 py-3 pl-6 pr-9 rounded-full hover:bg-pink-800
+                     text-white font-medium md:font-bold leading-6">Preebook now 
+                     <i class="fa-solid fa-arrow-right-long pl-3"></i>
+                    </button>
+
+                </div>
+                <!-- Banner Img Content -->
+                <div style="background-image: url('images/Circle design.svg') ;" class="bg-contain bg-no-repeat ">
+                    <div>
+                        <img class="w-100%" src="images/main-camera.png" alt="">
+                    </div>
+                </div>
+            </div>
+          </section>
     </header>
     <main>
 
